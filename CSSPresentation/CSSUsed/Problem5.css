@@ -1,0 +1,138 @@
+.Sample{
+	color: white;
+	font-family:'Edwardian Script ITC';
+	font-size: 60px;
+	margin-top: 20px;
+}
+body{
+	height: 639px;
+	background: -webkit-linear-gradient(#ce90f9 3%, purple); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ce90f9 3%, purple); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ce90f9 3%, purple); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ce90f9 , #9215f2 30%); /* Standard syntax (must be last) */
+}
+a{
+	text-decoration: none;
+	color: lightgray;
+}
+.firts{
+	border: solid black;
+	border-radius: 15px;
+	border-width: 2px;
+	width: 1000px;
+	margin-bottom:10px;
+	margin-left: 20px;
+}
+.table{
+    width: 300px;
+    height: 50px;
+    margin-left: 20px;
+ }
+ .pass1{
+ 	background-color:#b35ef3;
+    outline:0;
+ 	width: 170px;
+ 	height: 20px;
+ 	border-radius: 100px / 100px;
+ }
+ #info{
+ 	color:white;
+ 	position: absolute;
+    left: 1100px;
+    bottom: 550px;
+ }
+ .sub{
+ 	color: white;
+ 	font-size: 15px;
+ 	height: 30px;
+ 	width: 90px;
+ 	background-color:#b35ef3;
+ 	outline: 0; 
+ 	border-radius:12px;
+ 	border-width:1px;
+ 	margin-top: 4px;
+ }
+.art1{
+	color:white;
+    border:solid black;
+    border-width: 2px;
+    border-radius: 10px;
+    font-size: 12px;
+    height: 100px;
+    width: 1000px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 5px;
+    text-indent: 10px;
+}
+.footer{
+	padding-left: 730px;
+}
+.art2{
+	color:white;
+    border:solid black;
+    border-width: 2px;
+    border-radius: 10px;
+    font-size: 12px;
+    height: 100px;
+    width: 1000px;
+    margin-top: 18px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    text-indent: 10px;
+}
+.art3{
+	color:white;
+    border:solid black;
+    border-width: 2px;
+    border-radius: 10px;
+    font-size: 12px;
+    height: 100px;
+    width: 1000px;
+    margin-top: 18px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    text-indent: 10px;
+}
+.aside{
+	font-size: 12px;
+	border:solid black;
+	width: 240px;
+	height: 90px;
+    color:white;
+ 	position: absolute;
+    left: 1060px;
+    bottom: 340px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+.my-list{
+	font-size: 15px;
+	border: solid black;
+	width: 230px;
+	color:white;
+ 	position: absolute;
+    left: 1060px;
+    bottom: 190px;
+    padding-left: 30px;
+}
+.liststyle{
+    list-style-type: circle;
+}
+.aside2{
+	font-size: 12px;
+	border:solid black;
+	width: 240px;
+	height: 90px;
+    color:white;
+ 	position: absolute;
+    left: 1060px;
+    bottom: 50px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+.last{
+	color:white;
+	padding-left: 440px;
+	padding-top: 15px;
+}

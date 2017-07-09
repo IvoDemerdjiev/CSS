@@ -1,0 +1,57 @@
+#catagories{
+	background-color: #F5F5F5;
+    margin: 0px;
+	padding: 10px;
+	width: 410px;
+	height: 550px;
+	border-radius: 5px;
+}
+.title{
+	font-family: Segoe UI;
+	font-size: 15px;
+	padding: 0px;
+}
+.images{
+	float: left;
+	display:inline;
+	height: 80px;
+	width: 150px;
+	margin-top: 1px;
+	padding-right: 20px;
+	
+}
+.options{
+	border:1px solid black;
+	margin-top: 40px; 
+    height: 120px;
+	list-style-type: none;
+	background-color: white;
+}
+#catagories ul li{
+	padding:20px;
+	padding-top: 15px;
+	margin-left: -50px;
+}
+.aside{
+	clear: left;
+	font-size: 15px;
+	padding-left: 4px;
+	float: right;
+}
+span{
+	font-weight: bold;
+}
+.listen{
+	display: inline-block;
+	padding-left: 100px;
+    margin-top: 1px;
+	height: 30px;
+	width: 60px;
+}
+.add{
+	float: right;
+	display: inline-block;
+	padding-top: 1px;
+	height: 30px;
+	width: 40px;
+}

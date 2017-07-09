@@ -1,0 +1,17 @@
+
+.container {
+    background-color: red;
+    border-radius: 5rem;
+    display: table;
+    }
+
+.nested {
+    width: 95%;
+    background-color: black;
+    border: 1px solid red;
+    border-radius: 3rem;
+}
+
+.first  {
+    width: 1300%;
+}

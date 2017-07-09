@@ -1,0 +1,45 @@
+body{
+	background-color: #a9a9a9;
+	font-size: 25px;
+}
+h1{
+	margin-left: 200px;
+	color: #fafad2;
+}
+.Fheader{
+	margin-left:20%; 
+	font-size: 20px;
+	color:white;
+}
+ul>li>a{
+	text-decoration: none;
+	color:white;: 
+}
+ul{
+	font-size: 25px;
+	list-style-type: none;
+	margin-left:250px;
+}
+.NavItemUnderline{
+	text-decoration: underline;
+}
+.LiBackground{
+	background-color: lightgray;
+}
+.Sheaders{
+	color: #fafad2;
+}
+.Link{
+	font-size: 15px;
+	text-decoration: none;
+	color: black;
+}
+.footer{
+	margin-left:25%;
+}
+.Localhost{
+	position: absolute;
+	top:650px;
+	font-size: 15px;
+	background-color: white;
+}

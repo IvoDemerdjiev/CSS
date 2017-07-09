@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Windows Calculator</title>
+	<link rel="stylesheet" type="text/css" href="CSSUsed/Problem7.css"/>
+</head>
+<body>
+   <div id="Calculator">
+    <div id="inner">
+      	<ul class="Menu">
+      		<li>
+      			<span class="UnderlineLetter">V</span>iew&nbsp;&nbsp;&nbsp;
+      		</li>
+      		<li>
+      			<span class="UnderlineLetter">E</span>dit&nbsp;&nbsp;&nbsp;
+      		</li>
+      		<li>
+      			<span class="UnderlineLetter">H</span>elp
+      		</li>
+      	</ul>
+      	 <input type="text" value="8854455" dir="rtl" class="ResultBar">
+      	 <div class="bits">
+      	 	<ul>
+				<li>0000</li>
+				<li>0000</li>
+				<li>0000</li>						
+				<li>0000</li>
+				<li>0000</li>
+				<li>0000</li>
+				<li>0000</li>
+				<li>0000</li>
+			  </ul>
+			  <ul>
+				<li>63&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li>&nbsp;&nbsp;</li>
+				<li>47&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;</li>
+				<li>&nbsp;&nbsp;&nbsp;&nbsp;32</li>
+			  </ul>
+			  <ul>
+				<li>0000</li>
+				<li>0000</li>
+				<li>1000</li>						
+				<li>0111</li>
+				<li>0001</li>
+				<li>1011</li>
+				<li>1011</li>
+				<li>0111</li>
+			  </ul>
+			  <ul>
+				<li>31&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li>&nbsp;&nbsp;</li>
+				<li>15&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;</li>
+				<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</li>
+			  </ul>  
+      	 </div>
+      	<div id="left">
+      	  <div id="numeralSystems" class="border">
+      		<span><input type="radio" name="numeralSystem"/>Hex</span>
+      		<span><input type="radio" name="numeralSystem" checked/>Dec</span>
+      		<span><input type="radio" name="numeralSystem"/>Oct</span>
+      		<span><input type="radio" name="numeralSystem"/>Bin</span>
+      	</div>
+      	<div id="numeralSystems" class="border">
+      		<span><input type="radio" name="bitsLength"/>Qword</span>
+      		<span><input type="radio"name="bitsLength" checked />Dword</span>
+      		<span><input type="radio" 
+      		name="bitsLength">Word</span>
+      		<span><input type="radio" 
+      		name="bitsLength">Byte</span>
+       </div>
+      </div>
+     <div id="buttons">
+       <div class="row">
+       	<button class="disabled">&nbsp</button>
+       	<button class="special">Mod</button>
+       	<button class="disabled">A</button>
+       	<button class="disabled">MC</button>
+       	<button class="disabled">MR</button>
+       	<button class="disabled">MS</button>
+       	<button class="disabled">M+</button>
+       	<button class="disabled">M-</button>
+       </div>
+       <div class="row">
+       	<button class="special">(</button>
+       	<button class="special">)</button>
+       	<button class="disabled">B</button>
+       	<button class="special">&larr;</button>
+       	<button class="special">CE</button>
+       	<button class="special">C</button>
+       	<button class="special">&#177;</button>
+       	<button class="disabled">&#8730;</button>
+       </div>
+       <div class="row">
+       	<button class="special">RoL</button>
+       	<button class="special">RoR</button>
+       	<button class="disabled">C</button>
+       	<button class="digits">7</button>
+       	<button class="digits">8</button>
+       	<button class="digits">9</button>
+       	<button class="special">/</button>
+       	<button class="disabled">%</button>
+       </div>
+       <div class="row">
+       	<button class="special">Or</button>
+       	<button class="special">Xor</button>
+       	<button class="disabled">D</button>
+       	<button class="digits">4</button>
+       	<button class="digits">5</button>
+       	<button class="digits">6</button>
+       	<button class="special">*</button>
+       	<button class="disabled">1/x</button>
+       </div>
+       <div class="row">
+       	<button class="special">Lsh</button>
+       	<button class="special">Rsh</button>
+       	<button class="disabled">E</button>
+       	<button class="digits">1</button>
+       	<button class="digits">2</button>
+       	<button class="digits">3</button>
+       	<button class="special">-</button>
+       	<button class="equel">=</button>
+       </div>
+       <div class="row">
+       	<button class="special">Not</button>
+       	<button class="special">And</button>
+       	<button class="disabled">F</button>
+       	<button class="zero">0</button>
+       	<button class="disabled">.</button>
+       	<button class="special">+</button>
+       </div>
+     </div>
+    </div>
+   </div>
+</body>
+</html>

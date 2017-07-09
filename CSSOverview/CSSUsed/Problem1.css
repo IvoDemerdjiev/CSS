@@ -1,0 +1,37 @@
+.stick{
+         color: AntiqueWhite;
+         margin-left: 10px;
+	  }
+	  .circle {
+        display: lightgreen;
+        background: lightgreen;
+        border-radius: 50%;
+        height: 20px;
+        width: 20px;
+        margin: 0;
+        float: left;     
+       }
+	  .LightGray{
+	  	color: lightgray
+	  }
+	  .AntiqueWhite{
+	  	color: AntiqueWhite
+	  }
+	  h1{
+	  	color: lightgray
+	  }
+	  body{
+		background-color: gray;
+	  }
+	  div{
+	  	font-size: 20px;
+	  }
+	  .white{
+	  	color: white
+	  }
+	  .orange{
+	  	color: orange
+	  }
+	  .red{
+	  	color: red
+	  }

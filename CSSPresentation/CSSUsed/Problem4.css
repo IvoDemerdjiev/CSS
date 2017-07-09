@@ -1,0 +1,11 @@
+
+.font{
+	color: #0094ff;
+	font-family:'Edwardian Script ITC';
+}
+div{
+	font-size:60px;
+}
+p::first-line { 
+    font-weight: bold;
+}
